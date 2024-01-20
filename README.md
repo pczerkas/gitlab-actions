@@ -19,5 +19,3 @@ GitHub Actions:
     - act --list
     - act
 ```
-
-You can see the pipline runs for this repository on [GitLab](https://gitlab.com/obristow/gitlab-actions/pipelines).
