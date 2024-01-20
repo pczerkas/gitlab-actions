@@ -1,0 +1,3 @@
+/build
+configure-docker-registry-proxy-ca.sh
+configure-squid-ca.sh

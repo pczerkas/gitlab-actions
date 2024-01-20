@@ -16,10 +16,8 @@ GitHub Actions:
   image: code0x58/act
   stage: action
   script:
-    # fix GitLab's non-symbolic-ref HEAD
-    - git checkout -B "$CI_COMMIT_REF_NAME" "$CI_COMMIT_SHA"
     - act --list
-    - DOCKER_API_VERSION=1.39 act
+    - act
 ```
 
 You can see the pipline runs for this repository on [GitLab](https://gitlab.com/obristow/gitlab-actions/pipelines).
