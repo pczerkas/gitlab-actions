@@ -8,7 +8,7 @@ stages:
   - action
 
 GitHub Actions:
-  image: code0x58/act
+  image: ghcr.io/pczerkas/gitlab-actions:latest
   stage: action
   script:
     # fix GitLab's non-symbolic-ref HEAD
